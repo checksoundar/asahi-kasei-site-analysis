@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "asahi-kasei-site-analysis": {
+      "previewOrg": "checksoundar",
+      "previewSite": "asahi-kasei-site-analysis",
+      "contentHostUrl": "https://content.da.live/checksoundar/asahi-kasei-site-analysis/"
+    }
+  }
+}

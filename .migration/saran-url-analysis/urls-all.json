@@ -1,0 +1,1888 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-09-01T07:09:28.882Z",
+    "totalUrls": 434,
+    "totalDocuments": 32,
+    "method": "crawl",
+    "sitemapURL": null,
+    "robotsTxtFound": true,
+    "robotsTxtRulesApplied": true,
+    "limitations": "",
+    "confidence": "85%",
+    "statusBreakdown": {
+      "success": 391,
+      "redirect": 0,
+      "clientError": 43,
+      "serverError": 0,
+      "errorTimeout": 0
+    },
+    "urls": [
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/reitou-chokin",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/saranwrap",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/design_bag.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/reed",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/zubizuba",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/gift_novelty",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/cm/recipe_movie.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/cm",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/shita-aji.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/reitou-chokin/obentou",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/reitou-chokin/yasai",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/reitou-chokin/sv-cooking",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/reitou-chokin/onigiri",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/chart.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/saranwrap/difference.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/saranwrap/how_to.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food14.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food16.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/cm/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/fryingpan.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/cooking_sheet.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/brown_cooking_sheet.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/onigiri.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/nimono.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/yakizakana_box.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/kaitou_mat.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/zubizuba/acrylic.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/zubizuba/sarash.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/zubizuba/bath.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch/item",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/report01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/report03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/report05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food51.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food39.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food19.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food22.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food36.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food45.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food25.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food27.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food15.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food28.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food24.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food17.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food35.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food41.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food29.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food47.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food49.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food50.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food38.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food20.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food13.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food21.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food48.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food11.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food43.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food30.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food46.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food32.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food10.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food09.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food40.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food23.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food26.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food37.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food44.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food31.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food34.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/food42.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food09.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food10.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food11.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food12.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food15.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food08.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food13.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fruits/food14.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food08.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/food07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/meat",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/meat/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/meat/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/meat/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/meat/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/beans/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/beans/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/beans/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/beans/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dairy/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dairy/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dairy/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dairy/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/food07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/food06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dry_food",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dry_food/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dry_food/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dry_food/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dry_food/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food16.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food13.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food15.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food17.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food10.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food11.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food18.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food14.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food08.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food12.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/food09.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/other/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/other/food06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/other/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/other/food08.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/other/food13.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/other/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/other/food09.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/saranwrap/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/freezer.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/container.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/screw.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_ireland.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_uk.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_italy.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_netherlands.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_greece.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_croatia.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_switzerland.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_sweden.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_spain.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_germany.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_turkey.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_norway.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_hungary.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_finland.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_france.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_belgium.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_portugal.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/europe_russia.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/america_us.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/america_argentina.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/america_canada.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/america_hawaii.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/america_brazil.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/america_mexico.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_india.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_indonesia.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_australia.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_korea.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_thailand.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_china.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_japan.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_vietnam.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/asia_mongolia.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/africa_egypt.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/world/africa_tunisia.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recycle",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/zipper.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/storage.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/easy_bag.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/container_gohan.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/ziploc",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/greasetrap",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/bb-form/q143",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/reed.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/ws",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/case.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/getsuyo",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/ziploc/container/case.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/greasetrap/howto",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/saranwrap.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/cookper_rolltype.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/cookper_cuttype.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/cookper_separate.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/cookper_cup.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/cookper_custom.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/ziploc_freezer.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/ziploc_easyzipper.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/ziploc_container.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/ziploc_screw.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/greasetrap_net.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/greasetrap_gsc.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/greasetrap_sukuinbou.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/endurance.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/bb-form/q142",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/gift_novelty/novelty.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/gift_novelty/gift.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/gift_novelty/personalize.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/gift_novelty/casestudy.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking08.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking10.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking26.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking48.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking47.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking46.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking17.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking21.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking45.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking38.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking44.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking43.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking15.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking16.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking28.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking25.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking42.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking32.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking41.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking40.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking27.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking09.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking29.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking39.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking37.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking23.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking11.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking36.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking22.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking20.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking35.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking18.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking34.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking33.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking13.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking31.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking30.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking24.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking12.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking19.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking14.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking/cooking05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/vegetables/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/grain/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/usage01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/usage02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/usage06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/cookper/idea_wrapping.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch/premium",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch/item/dw_premium_yuzu",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch/item/dw_premium_eucalyptus",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch/item/dw_bloodorange",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch/item/dw_aloevera",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/report02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/report04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/report06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/report07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sustainability/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/fish/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/meat/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dry_food/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/dish/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/point.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food13.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food10.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food07.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food16.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food12.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food15.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food14.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food20.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food04.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food11.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food19.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food08.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food05.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food17.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food09.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food06.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/preservation/baby/food18.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/frosch/item/dw_baby",
+        "status": 403
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recipe/idea_cooking",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/reuse.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/reason.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/performance.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/cuttype",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/cuttype/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/separate_cup/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/custom/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/yaku01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/musu01.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/maku.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/niru.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/ageru.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/ziploc/freezer",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/ziploc/container",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/ziploc/screw",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/greasetrap/net",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/greasetrap/gsc",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/greasetrap/sukuinbou",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/howto",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol24.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol23.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol22.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol21.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol20.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol19.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol18.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol17.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol16.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol15.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol14.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol13.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol12.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol11.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol10.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol07.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol08.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol09.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol04.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol05.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol06.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol03.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol02.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/vol01.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/lineup/images/g_gscn_pkg_img01.jpg",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/interview",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/customer",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/customer/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/customer/contact/products.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/customer/contact/catalog.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/customer/contact/novelty.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/customer/discontinue.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/sitemap.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/about_us.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/cookie.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/images/g_reason_figure01.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/images/g_reason_figure03.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/images/g_reason_figure02.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/images/g_reason_figure04.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/images/g_reason_figure05.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/images/g_reason_figure06.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/saranwrap/images/g_reason_figure07.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/custom",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/yaku02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/yaku03.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/cookper/case/musu02.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/interview/01",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/interview/02",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/interview/03",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/interview/04",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/interview/05",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/interview/06",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/bb-form/q144",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/standing_bag.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/stock_bag.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/machi_zipper.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/zubizuba/grill.html",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/catalog/index.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/asahi/jp/policy/legal.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/asahi/jp/policy/privacy.html",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/asahiwrap/english",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/asahiwrap/thai",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/asahiwrap/vietnamese",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/asahiwrap/chinese-traditional",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/cookper/english",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/cookper/thai",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/cookper/vietnamese",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/global/cookper/chinese-traditional",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/jp/privacy",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/jp/security",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/jp/cookie",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/jp/social-media",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/jp/contact-us",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/jp/contact-us/contact",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/jp/fragments/data-protection/data-protection",
+        "status": 404
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/assets/pdf/information/information_202607.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2026/newsrelease_20260701.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2026/newsrelease_20260216.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2026/newsrelease_20260216-2.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2025/newsrelease_20251022.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2025/newsrelease_20251015.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2025/newsrelease_20251001.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2025/newsrelease_20250903.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2025/newsrelease_20250722.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2025/newsrelease_20250701.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/assets/pdf/products/gift_novelty/novelty_catalog.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/assets/pdf/products/gift_novelty/gift_catalog.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/assets/pdf/products/gift_novelty/original_design_catalog.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/assets/pdf/preservation/chart.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2023/newsrelease_20230622.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recycle/pdf/news_20230901.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/corporate_info/2022/newsrelease_20220824.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/recycle/pdf/ziploc_RycycleProgram.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/assets/pdf/products/gift_novelty/novelty_giftcatalog.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_catalog01.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_new_catalog05.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_new_catalog08.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_cp_catalog01.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_new_catalog02.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_new_catalog06.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_new_catalog07.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_new_catalog09.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_zp_catalog01.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_gs_catalog01.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/saran/products/business/download/images/g_gs_catalog02.pdf",
+        "status": 200
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/content/dam/asahi-kasei/jp/ja/privacy/pdf/affiliates.pdf",
+        "status": 404
+      },
+      {
+        "url": "https://www.asahi-kasei.co.jp/content/dam/asahi-kasei/jp/ja/privacy/pdf/inquiry.pdf",
+        "status": 404
+      }
+    ]
+  }
+}
