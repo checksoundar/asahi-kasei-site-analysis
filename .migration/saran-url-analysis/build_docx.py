@@ -115,25 +115,35 @@ body.append('<w:p><w:pPr><w:jc w:val="center"/><w:spacing w:after="40"/></w:pPr>
             '<w:t>https://www.asahi-kasei.co.jp/saran/</w:t></w:r></w:p>')
 body.append('<w:p><w:pPr><w:jc w:val="center"/><w:spacing w:after="40"/></w:pPr>'
             '<w:r><w:rPr><w:sz w:val="20"/><w:color w:val="595959"/></w:rPr>'
-            '<w:t>Prepared: 2026-09-01  |  Method: full-site crawl (no sitemap)  |  434 pages, 32 PDFs</w:t></w:r></w:p>')
+            '<w:t>Prepared: 2026-09-01  |  Method: full-site crawl + structural analysis of all 391 live pages  |  434 pages, 32 PDFs</w:t></w:r></w:p>')
 
 para("")
 heading("Executive Summary", 2)
 para("The Saran site is a Japanese-language consumer brand site for Asahi Kasei Home Products "
      "(Saran Wrap®, Ziploc®, Cookper®, Frosch®, etc.). A full crawl discovered 434 HTML pages "
-     "and 32 PDF documents across ~13 template types. The site is largely template-driven and "
-     "content-heavy: two clusters — Preservation food-detail pages (159) and Recipe/kitchen-idea "
-     "pages (86) — account for over half of all pages and are highly standardized, making them "
-     "strong candidates for automated migration. A structurally separate B2B (業務用) sub-site "
-     "(83 pages) carries its own header, footer and navigation and must be treated as a distinct "
-     "template. The recipe library is externalized to a third-party platform (ahp-recipe.jp), and "
-     "a Google Custom Search, a cookie-consent manager, an AI FAQ chatbot, YouTube embeds and "
-     "multiple retail/store-locator integrations are present.")
+     "and 32 PDF documents across ~13 template types. Every one of the 391 live (HTTP 200) pages "
+     "was fetched and its DOM structurally analyzed — block markup, embeds and integration "
+     "signatures — so the block, integration and complexity findings below are measured across the "
+     "whole site, not inferred from a sample.")
+para("The site is largely template-driven and content-heavy: two clusters — Preservation "
+     "food-detail pages (159) and Recipe/kitchen-idea pages (86) — account for over half of all "
+     "pages and are highly standardized, making them strong candidates for automated migration. A "
+     "structurally separate B2B (業務用) sub-site (83 pages) carries its own header, footer and "
+     "navigation and must be treated as a distinct template. Full-site analysis revealed three "
+     "findings not visible in a sample: (1) the external recipe platform (ahp-recipe.jp) is linked "
+     "from 236 pages / 60% — including 142 preservation pages, far beyond the recipe section; "
+     "(2) Google Tag Manager loads on 373 pages / 95% and is the runtime delivery mechanism for "
+     "analytics, the cookie-consent manager and Google Custom Search (which is why those appear in "
+     "static markup on only ~9 pages); and (3) YouTube is embedded 77 times across 24 pages, "
+     "concentrated in the B2B and product sections.")
 
 pagebreak()
 # ================= 1. TEMPLATES INVENTORY =================
 heading("1. Templates Inventory", 1)
-para("Unique page templates across the site, with complexity and absolute reference URLs.", size=9, color="595959")
+para("Unique page templates across the site, with complexity and absolute reference URLs. "
+     "Templates and page counts were derived from all 434 crawled URLs; block, integration and "
+     "complexity findings (sections 2, 4, 5) were measured by fetching and structurally analyzing "
+     "every one of the 391 live pages.", size=9, color="595959")
 table(
     ["Template", "Complexity", "Reasoning", "Reference URL(s)"],
     [
@@ -184,79 +194,83 @@ pagebreak()
 # ================= 2. BLOCKS / COMPONENTS =================
 heading("2. Blocks / Components Catalog", 1)
 para("Reusable blocks derived from shared DOM structure. Where the content model is the same but "
-     "the visual layout differs, these are noted as design variations of one block rather than new blocks.",
-     size=9, color="595959")
+     "the visual layout differs, these are noted as design variations of one block rather than new "
+     "blocks. The 'Pages' column is the measured count across all 391 live pages (structural DOM "
+     "match); percentages are of live pages.", size=9, color="595959")
 table(
-    ["Block / Component", "Complexity", "Behaviour & functionality", "Reference URL(s)"],
+    ["Block / Component", "Complexity", "Pages", "Behaviour & functionality", "Reference URL(s)"],
     [
-        ["Global header + mega-menu nav (consumer)", "Complex",
+        ["Global header + mega-menu nav (consumer)", "Complex", "~330",
          "Sticky header with multi-level dropdown menus (products, preservation, recipe, contact) each exposing sub-lists on hover.",
-         "All /saran/* consumer pages"],
-        ["Global footer", "Medium",
+         "All consumer /saran/* pages"],
+        ["Global footer", "Medium", "~330",
          "Brand-logo row, multi-column sitemap, legal links, group link, copyright.",
-         "All /saran/* consumer pages"],
-        ["Hero carousel / slider", "Complex",
-         "Autoplay tabbed slider with prev/next and pause control. Design variations: 9 slides (home), 3 slides (product), 4 slides (B2B).",
-         f"{BASEURL}/saran/\n{BASEURL}/saran/products/saranwrap/"],
-        ["Card grid (link cards)", "Medium",
+         "All consumer /saran/* pages"],
+        ["Breadcrumb", "Simple", "370 (94%)",
+         "Home > Section > Page trail.",
+         "Nearly all /saran/* pages"],
+        ["Card grid (link cards)", "Medium", "257 (65%)",
          "Responsive grid of image+label link cards. Design variations: product grid, recipe grid, food-thumbnail grid, kitchen-idea grid.",
          f"{BASEURL}/saran/products/\n{BASEURL}/saran/preservation/"],
-        ["Food-category tab navigation", "Medium",
-         "Tabbed anchors (野菜/果物/魚介…) that switch category panels within the preservation index.",
+        ["Food-category / content tab navigation", "Medium", "143 (36%)",
+         "Tabbed anchors (野菜/果物/魚介…) switching category panels; also used on product/B2B pages.",
          f"{BASEURL}/saran/preservation/"],
-        ["Recipe search / filter form", "Complex",
-         "Keyword box + 7 filtered dropdowns (food, theme, genre, keyword, difficulty, time, product) with reset/search; posts to external recipe platform.",
-         f"{BASEURL}/saran/recipe/"],
-        ["News / information list", "Simple",
-         "Date-titled definition list (dt/dd), often linking to PDFs. Design variations: INFORMATION and NEWS on home; news-release list on corporate.",
+        ["News / information list", "Simple", "56 (14%)",
+         "Date-titled definition list (dt/dd), often linking to PDFs. Variations: INFORMATION & NEWS on home; news-release list on corporate.",
          f"{BASEURL}/saran/\n{BASEURL}/saran/corporate_info/"],
-        ["Company-profile table", "Simple",
-         "Static key/value data table (商号, 代表者, 所在地 …).",
+        ["Hero carousel / slider", "Complex", "44 (11%)",
+         "Autoplay tabbed slider with prev/next and pause. Variations: 9 slides (home), 3 (product), 4 (B2B), global landings.",
+         f"{BASEURL}/saran/\n{BASEURL}/saran/products/business/"],
+        ["Data table", "Simple", "41 (10%)",
+         "Static key/value or spec tables. Variations: company profile, B2B product specs.",
          f"{BASEURL}/saran/corporate_info/"],
-        ["Product feature-callout block", "Medium",
+        ["Video embed (YouTube)", "Medium", "24 (6%); 77 embeds",
+         "Embedded YouTube players in card layouts. Variations: consumer CM grid, B2B how-to grid, product page.",
+         f"{BASEURL}/saran/cm/\n{BASEURL}/saran/products/business/"],
+        ["Accordion / toggle", "Medium", "23 (6%)",
+         "Expand/collapse sections (FAQ-style and content toggles).",
+         f"{BASEURL}/saran/customer/\n{BASEURL}/saran/products/business/"],
+        ["Product lineup + online-store CTA", "Medium", "~45",
+         "Product pack images with Amazon / LOHACO / Rakuten purchase links per SKU (retail links on 18–13 pages).",
+         f"{BASEURL}/saran/products/saranwrap/\n{BASEURL}/saran/preservation/vegetables/food01.html"],
+        ["Product feature-callout block", "Medium", "~30",
          "Image + heading + copy feature rows (密着性, ハリ・コシ, M字型の刃 …).",
          f"{BASEURL}/saran/products/saranwrap/"],
-        ["Stat / metric block", "Medium",
+        ["Stat / metric block", "Medium", "~15",
          "Numeric performance figures with footnotes (透湿度 ~2.0x, 酸素 ~200x …).",
          f"{BASEURL}/saran/products/saranwrap/"],
-        ["Product lineup + online-store CTA", "Medium",
-         "Product pack images with Amazon / LOHACO / Rakuten purchase links per SKU.",
-         f"{BASEURL}/saran/products/saranwrap/\n{BASEURL}/saran/preservation/vegetables/food01.html"],
-        ["Retailer / SNS strip", "Simple",
+        ["Retailer / SNS strip", "Simple", "~30",
          "Row of store-locator + Amazon + LOHACO + Rakuten24 banners near the footer.",
-         "Most consumer pages"],
-        ["Breadcrumb", "Simple",
-         "Home > Section > Page trail.",
-         "Most /saran/* pages"],
-        ["Left side-nav rail", "Simple",
-         "In-section vertical navigation of sibling pages.",
-         f"{BASEURL}/saran/preservation/\n{BASEURL}/saran/products/saranwrap/"],
-        ["Video embed (YouTube)", "Medium",
-         "Embedded YouTube players in card layouts. Variations: consumer CM grid, B2B how-to grid.",
-         f"{BASEURL}/saran/cm/\n{BASEURL}/saran/products/business/"],
-        ["FAQ card grid", "Medium",
-         "Per-brand FAQ entry cards linking to the external FAQ system.",
-         f"{BASEURL}/saran/customer/"],
-        ["Contact-info block", "Simple",
-         "Phone/mail contact panels with hours and mail-form links.",
-         f"{BASEURL}/saran/customer/\n{BASEURL}/saran/products/business/"],
-        ["AI chatbot embed", "Complex",
-         "Iframe chat widget with product buttons and free-text search (dynamic/session).",
-         f"{BASEURL}/saran/customer/"],
-        ["Cookie-consent banner", "Complex",
-         "Iframe overlay with Accept/Reject/Settings (regulatory consent manager).",
-         "All pages (first visit)"],
-        ["Google Custom Search box", "Medium",
-         "Site search powered by Google CSE (adds #gsc.tab fragment).",
-         "All consumer pages (header)"],
-        ["Social-share buttons", "Simple",
+         "Product & preservation pages"],
+        ["Social-share buttons", "Simple", "10 (3%)",
          "Facebook / X / LINE share on content detail pages.",
          f"{BASEURL}/saran/preservation/vegetables/food01.html"],
-        ["B2B header/footer/nav", "Complex",
+        ["Scroll-reveal animation wrapper", "Complex", "10 (3%)",
+         "Content revealed on scroll (sustainability editorial + some product pages).",
+         f"{BASEURL}/saran/sustainability/"],
+        ["FAQ card grid", "Medium", "~6",
+         "Per-brand FAQ entry cards linking to the external FAQ system.",
+         f"{BASEURL}/saran/customer/"],
+        ["Contact-info block", "Simple", "~10",
+         "Phone/mail contact panels with hours and mail-form links.",
+         f"{BASEURL}/saran/customer/\n{BASEURL}/saran/products/business/"],
+        ["Recipe search / filter form", "Complex", "1 (+ index)",
+         "Keyword box + 7 filtered dropdowns with reset/search; posts to external recipe platform. Only 2 real <form> tags exist sitewide.",
+         f"{BASEURL}/saran/recipe/"],
+        ["AI chatbot embed", "Complex", "4",
+         "Iframe chat widget with product buttons and free-text search (dynamic/session).",
+         f"{BASEURL}/saran/customer/"],
+        ["Cookie-consent banner (GTM-injected)", "Complex", "Sitewide (runtime)",
+         "Iframe overlay with Accept/Reject/Settings. Injected at runtime via GTM (static markup on ~9 pages).",
+         "All pages (first visit)"],
+        ["Google Custom Search box (GTM-injected)", "Medium", "Sitewide (runtime)",
+         "Site search powered by Google CSE (adds #gsc.tab fragment); loaded via GTM.",
+         "All consumer pages (header)"],
+        ["B2B header/footer/nav", "Complex", "58 live",
          "Distinct navigation, contact footer with tel links and catalog download — separate design system.",
          f"{BASEURL}/saran/products/business/"],
     ],
-    [0.24, 0.10, 0.40, 0.26],
+    [0.22, 0.09, 0.11, 0.33, 0.25],
 )
 
 pagebreak()
@@ -308,44 +322,49 @@ para("* The bb-form pages returned 404 when crawled without a trailing slash; th
 pagebreak()
 # ================= 4. INTEGRATIONS =================
 heading("4. Integrations Analysis", 1)
-para("Third-party integrations and embedded services detected in page markup and outbound links.",
-     size=9, color="595959")
+para("Third-party integrations and embedded services, with page counts measured across all 391 "
+     "live pages.", size=9, color="595959")
 table(
-    ["Integration", "Type", "Complexity", "Where used / reference"],
+    ["Integration", "Type", "Complexity", "Pages", "Where used / reference"],
     [
-        ["External recipe platform (ahp-recipe.jp)", "API / external app", "Complex",
-         "Recipe search & detail links across /saran/recipe/* (content_list.php, sheet.php)"],
-        ["Google Custom Search Engine", "Embed / JS", "Medium",
-         "Header search on all consumer pages (#gsc.tab fragment)"],
-        ["Cookie-consent manager (iframe overlay)", "Embed / plugin", "Medium",
-         "All pages, first visit (ul-banner-main-window iframe)"],
-        ["AI FAQ chatbot (faq.asahi-kasei.co.jp)", "Embed (iframe)", "Complex",
-         f"{BASEURL}/saran/customer/"],
-        ["FAQ knowledge base (faq.asahi-kasei.co.jp)", "External app", "Medium",
-         "Per-brand 'よくあるご質問' links on product & customer pages"],
-        ["YouTube video embeds", "Embed (iframe)", "Simple",
-         f"{BASEURL}/saran/cm/ ; {BASEURL}/saran/products/business/"],
-        ["Store locator (asahi-kasei.storelocator.jp)", "External app", "Simple",
-         "Retailer strip on most consumer pages"],
-        ["E-commerce retail links (Amazon/LOHACO/Rakuten24)", "Affiliate / deep-link", "Simple",
-         "Product lineup & retailer strip sitewide"],
-        ["B2B reseller links (Askul/Kaunet/Monotaro/Tanomail/…)", "Deep-link", "Simple",
+        ["Google Tag Manager", "JS tag container", "Medium", "373 (95%)",
+         "Sitewide; runtime loader for analytics, consent & search"],
+        ["Web analytics (GA via GTM, _ga linker)", "JS tag", "Medium", "373 (95%)",
+         "Sitewide; outbound links carry _ga linker params"],
+        ["External recipe platform (ahp-recipe.jp)", "API / external app", "Complex", "236 (60%)",
+         "Recipe search & detail links; 142 preservation + 83 recipe pages (content_list.php, sheet.php)"],
+        ["YouTube video embeds", "Embed (iframe)", "Simple", "24 (77 embeds)",
+         f"{BASEURL}/saran/cm/ ; {BASEURL}/saran/products/business/ ; product pages"],
+        ["E-commerce retail links (Amazon/LOHACO/Rakuten24)", "Affiliate / deep-link", "Simple", "~18",
+         "Product lineup & retailer strip"],
+        ["B2B reseller links (Askul/Kaunet/Monotaro/…)", "Deep-link", "Simple", "18",
          f"{BASEURL}/saran/products/business/"],
-        ["X / Twitter official account", "Social link", "Simple",
-         "Preservation section follow button"],
-        ["Web analytics (GA-style _ga params)", "JS tag", "Medium",
-         "Outbound links carry _ga linker params sitewide"],
-        ["Campaign microsites (ahp-web.jp, yomiuri.co.jp)", "External link", "Simple",
+        ["Cookie-consent manager (GTM-injected iframe)", "Embed / plugin", "Medium", "Sitewide (runtime)",
+         "All pages, first visit (ul-banner-main-window iframe)"],
+        ["Google Custom Search Engine (GTM-injected)", "Embed / JS", "Medium", "Sitewide (runtime)",
+         "Header search on consumer pages (#gsc.tab fragment)"],
+        ["Campaign microsites (ahp-web.jp, yomiuri.co.jp)", "External link", "Simple", "8",
          "Product/topic promo tiles"],
-        ["PDF news releases / catalogs", "Document downloads", "Simple",
-         "32 PDFs under /corporate_info, /assets, /products/business/download"],
+        ["AI FAQ chatbot (faq.asahi-kasei.co.jp)", "Embed (iframe)", "Complex", "4",
+         f"{BASEURL}/saran/customer/"],
+        ["FAQ knowledge base (faq.asahi-kasei.co.jp)", "External app", "Medium", "4+",
+         "Per-brand 'よくあるご質問' links on product & customer pages"],
+        ["Store locator (asahi-kasei.storelocator.jp)", "External app", "Simple", "~7",
+         "Retailer strip (Frosch store search)"],
+        ["Social share / X account", "Social link", "Simple", "10",
+         "Content-detail share; preservation follow button"],
+        ["PDF news releases / catalogs", "Document downloads", "Simple", "32 files",
+         "/corporate_info, /assets, /products/business/download"],
     ],
-    [0.30, 0.16, 0.12, 0.42],
+    [0.25, 0.15, 0.11, 0.13, 0.36],
 )
-para("No enterprise REST/SOAP back-office integration (payment gateway, CRM, auth/login) was "
-     "observed. Commerce is handled via outbound deep-links to third-party retailers rather than "
-     "an on-site cart/checkout. The recipe platform and FAQ/chatbot are the most integration-heavy "
-     "surfaces.", size=9, color="595959")
+para("Measured finding: the external recipe platform is the single most pervasive integration "
+     "(236 pages / 60%), reaching well beyond the recipe section into 142 preservation pages via "
+     "'related recipe' links. GTM (95%) is the runtime delivery mechanism for analytics, the "
+     "cookie-consent manager and Google Custom Search — which is why those appear in static markup "
+     "on only ~9 pages. No enterprise REST/SOAP back-office integration (payment, CRM, auth/login) "
+     "was observed, and only two real HTML <form> tags exist sitewide; commerce is entirely "
+     "outbound deep-links to third-party retailers.", size=9, color="595959")
 
 pagebreak()
 # ================= 5. COMPLEX USE CASES =================
@@ -358,14 +377,17 @@ table(
         ["Two separate design systems (consumer vs B2B)", "83 B2B pages",
          "/saran/products/business/*",
          "B2B sub-site has its own header/footer/nav/theme — effectively a second site to template."],
-        ["Externalized recipe library", "86 recipe pages + all search",
-         "/saran/recipe/*, ahp-recipe.jp",
-         "Recipe data & search live off-site on a dynamic PHP platform; on-site pages are thin wrappers/links."],
+        ["Externalized recipe library (site-wide dependency)", "236 pages (60%)",
+         "/saran/recipe/* (83) + /saran/preservation/* (142) + cm, ahp-recipe.jp",
+         "Recipe data & search live off-site on a dynamic PHP platform; measured on 236 pages — every preservation detail cross-links it, so it is a sitewide dependency, not a recipe-only one."],
+        ["GTM-delivered analytics / consent / search", "373 pages (95%)",
+         "Sitewide (GTM container)",
+         "Analytics, cookie-consent overlay and Google CSE are injected at runtime via GTM, so they are invisible in static HTML and must be reconstituted, not copied from markup."],
         ["Recipe filter form (7 dependent dropdowns)", "1 (high traffic)",
          "/saran/recipe/",
          "Client-side faceted search posting to external system; not static content."],
-        ["AI chatbot widget", "1",
-         "/saran/customer/",
+        ["AI chatbot widget", "4",
+         "/saran/customer/ + linked FAQ pages",
          "Dynamic, session-based iframe app; cannot be statically migrated."],
         ["Autoplay hero carousels", "3 variations",
          "home, product detail, B2B",
@@ -399,10 +421,15 @@ table(
 )
 
 para("")
-heading("Appendix — Source Files", 2)
-para("urls-all.json (all 434 pages + 32 PDFs with HTTP status) · urls-grouped.json (43 directory "
-     "templates) · urls-sample.json · Saran-URL-Analysis-Report.xlsx (7 sheets) · screenshots/ "
-     "(10 full-page + cropped). All under .migration/saran-url-analysis/.", size=9, color="595959")
+heading("Appendix — Source Files & Method", 2)
+para("Method: all 434 URLs were crawled for status and grouping; all 391 live (HTTP 200) pages "
+     "were then fetched and their DOM parsed for block markup, embeds and integration signatures "
+     "(27 feature detectors). Percentages in sections 2, 4 and 5 are of the 391 live pages.",
+     size=9, color="595959")
+para("Files: urls-all.json (all 434 pages + 32 PDFs with HTTP status) · urls-grouped.json (43 "
+     "directory templates) · page-features.json (per-page structural feature matrix, 391 pages) · "
+     "Saran-URL-Analysis-Report.xlsx (8 sheets, incl. Feature Prevalence) · screenshots/ (10 "
+     "full-page + cropped). All under .migration/saran-url-analysis/.", size=9, color="595959")
 
 # ============================= PACKAGE =============================
 doc = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'

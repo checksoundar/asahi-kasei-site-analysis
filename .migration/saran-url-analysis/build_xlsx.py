@@ -128,12 +128,43 @@ shots = [
 for f, p, t in shots:
     shot_rows.append([f, p, t])
 
+# Sheet 8: Feature prevalence (from full-site structural analysis of 391 live pages)
+feat_rows = [["Feature / block / integration", "Pages", "% of live"]]
+feat_path = os.path.join(BASE, "page-features.json")
+if os.path.exists(feat_path):
+    fdata = json.load(open(feat_path))
+    nlive = len(fdata)
+    keys = set()
+    for fv in fdata.values():
+        keys |= set(k for k in fv if not k.startswith("_") and k != "__error__")
+    cc = {k: sum(1 for fv in fdata.values() if k in fv) for k in keys}
+    LABEL = {
+        "iframe": "iframe present (any embed)", "gtm": "Google Tag Manager",
+        "analytics_ga": "Analytics (GA / _ga linker)", "breadcrumb": "Breadcrumb",
+        "card_grid": "Card grid (link cards)", "recipe_platform": "External recipe platform (ahp-recipe.jp)",
+        "tab_nav": "Tab navigation", "news_list": "News / information list",
+        "hero_slider": "Hero carousel / slider", "data_table": "Data table",
+        "video_youtube": "YouTube video embed", "accordion": "Accordion / toggle",
+        "retail_amazon": "Amazon retail link", "b2b_reseller": "B2B reseller links",
+        "retail_rakuten": "Rakuten retail link", "social_share": "Social share buttons",
+        "retail_lohaco": "LOHACO retail link", "scroll_animation": "Scroll-reveal animation",
+        "cookie_consent": "Cookie-consent markup (static)", "campaign_micro": "Campaign microsite link",
+        "google_cse": "Google Custom Search (static)", "store_locator": "Store locator",
+        "faq_system": "FAQ knowledge base", "chatbot": "AI chatbot", "side_nav": "Side nav rail",
+        "form_tag": "HTML <form> tag", "map_embed": "Map embed", "gtm": "Google Tag Manager",
+    }
+    for k, c in sorted(cc.items(), key=lambda kv: kv[1], reverse=True):
+        feat_rows.append([LABEL.get(k, k), c, f"{round(100*c/nlive)}%"])
+    feat_rows.append(["", "", ""])
+    feat_rows.append([f"(Base: {nlive} live pages fetched & structurally analyzed)", "", ""])
+
 sheets = [
     ("Summary", sheet_xml(summary_rows, [30, 55], header_rows=1)),
     ("All Pages", sheet_xml(page_rows, [5, 70, 45, 12, 7])),
     ("Documents", sheet_xml(doc_rows, [5, 80, 8, 12, 7])),
     ("Templates", sheet_xml(grp_rows, [45, 8, 12])),
     ("Sections", sheet_xml(sec_rows, [22, 8])),
+    ("Feature Prevalence", sheet_xml(feat_rows, [42, 8, 10])),
     ("Broken Links", sheet_xml(brk_rows, [5, 70, 12])),
     ("Screenshots", sheet_xml(shot_rows, [42, 48, 34])),
 ]

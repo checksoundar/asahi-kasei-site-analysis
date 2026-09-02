@@ -1,8 +1,15 @@
 # URL Analysis Report — Asahi Kasei "Saran" Site
 
 **Site crawled:** https://www.asahi-kasei.co.jp/saran/
-**Date:** 2026-09-01
-**Discovery method:** Full site crawl (no sitemap available)
+**Date:** 2026-09-01 (structural analysis added 2026-09-02)
+**Discovery method:** Full site crawl (no sitemap available) + DOM structural analysis of all 391 live pages
+
+> **Full-site analysis findings** (measured across all 391 live pages, not a sample):
+> - External recipe platform (ahp-recipe.jp) is linked from **236 pages (60%)** — incl. 142 preservation pages, far beyond the recipe section (sitewide dependency).
+> - **Google Tag Manager on 373 pages (95%)** delivers analytics, cookie-consent and Google Custom Search at runtime (hence they appear in static markup on only ~9 pages).
+> - **YouTube embedded 77 times across 24 pages**, concentrated in B2B and product sections.
+> - Card grid 257 (65%), breadcrumb 370 (94%), tab-nav 143 (36%), news list 56 (14%), hero slider 44 (11%), data table 41 (10%), accordion 23 (6%).
+> - Only **2 real HTML `<form>` tags** sitewide; no enterprise REST/SOAP, payment, CRM or auth integration. Per-page matrix: `page-features.json`.
 **Scope:** `/saran/` section of asahi-kasei.co.jp (Asahi Kasei Home Products — サランラップ®/ジップロック®/クックパー® brand site)
 
 ---
